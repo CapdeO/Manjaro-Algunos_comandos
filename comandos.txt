@@ -1,3 +1,5 @@
+COMANDOS:
+
 sudo //super user do, me permite hacer cosas con privilegios de super usuario
 
 sudo pacman-mirrors --fasttrack //actualizar espejos
@@ -9,3 +11,15 @@ sudo pacman -S paquete //instalar paquetes
 mhwd-kernel -li //lista de kernels instalados
 
 sudo mhwd-kernel -i linux510 //instalar kernel más reciente, por ejemplo linux510
+
+ARCHIVOS Y DIRECTORIOS:
+
+/etc/pacman.conf //Configuración: 
+
+/var/cache/pacman/pkg/ //Ruta de caché: 
+
+/var/lib/pacman/sync Base de datos de paquetes: 
+
+/var/log/pacman.log Log (para ver errores): 
+
+
