@@ -1,0 +1,11 @@
+sudo //super user do, me permite hacer cosas con privilegios de super usuario
+
+sudo pacman-mirrors --fasttrack //actualizar espejos
+
+sudo pacman - Syu //actualizar sistema
+
+sudo pacman -S paquete //instalar paquetes
+
+mhwd-kernel -li //lista de kernels instalados
+
+sudo mhwd-kernel -i linux510 //instalar kernel más reciente, por ejemplo linux510
