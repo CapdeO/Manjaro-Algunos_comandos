@@ -14,12 +14,12 @@ sudo mhwd-kernel -i linux510 //instalar kernel más reciente, por ejemplo linux5
 
 ARCHIVOS Y DIRECTORIOS:
 
-/etc/pacman.conf //Configuración: 
+/etc/pacman.conf //Configuración. A este archivo le haremos modificaciones si por ejemplo encontramos errores en algunas líneas
 
-/var/cache/pacman/pkg/ //Ruta de caché: 
+/var/cache/pacman/pkg/ //Ruta de caché
 
-/var/lib/pacman/sync Base de datos de paquetes: 
+/var/lib/pacman/sync //Base de datos de paquetes
 
-/var/log/pacman.log Log (para ver errores): 
+/var/log/pacman.log //Log (para ver errores)
 
 
