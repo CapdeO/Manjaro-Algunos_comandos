@@ -6,11 +6,19 @@ sudo pacman-mirrors --fasttrack //actualizar espejos
 
 sudo pacman - Syu //actualizar sistema
 
+sudo pacman - Syyu //obliga actualizar sistema
+
 sudo pacman -S paquete //instalar paquetes
+
+pacman -Ss paquete //busca paquete
+
+pacman -Sg //listado de los paquetes que pertenecen a un grupo
 
 mhwd-kernel -li //lista de kernels instalados
 
 sudo mhwd-kernel -i linux510 //instalar kernel más reciente, por ejemplo linux510
+
+sudo nano /etc/pacman.conf //fichero de configuración. nano es uno de los editores de texto para poder modificarlo (con sudo)
 
 ARCHIVOS Y DIRECTORIOS:
 
